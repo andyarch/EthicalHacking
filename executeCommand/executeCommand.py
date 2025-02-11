@@ -13,4 +13,4 @@ def sendEmail(email, password, message):
 command = "echo hello"
 # subprocess.Popen(command, shell=True)
 result = subprocess.check_output(command, shell=True)
-sendEmail("andy.karandikar@gmail.com", "shqd jzee bfkg isut", result) #gmail "app password"
+sendEmail("test@gmail.com", "password", result) #gmail "app password"
